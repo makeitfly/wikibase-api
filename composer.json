@@ -41,7 +41,7 @@
         },
         "data-model-services": {
             "type": "vcs",
-            "url": "https://github.com/aurelie1vndl/WikibaseDataModelServices.git"
+            "url": "https://github.com/makeitfly/WikibaseDataModelServices.git"
         },
         "mediawiki-datamodel": {
             "type": "vcs",
