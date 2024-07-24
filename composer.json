@@ -27,10 +27,6 @@
             "type": "vcs",
             "url": "https://github.com/makeitfly/mediawiki-api-base.git"
         },
-        "data-model": {
-            "type": "vcs",
-            "url": "https://github.com/makeitfly/WikibaseDataModel.git"
-        },
         "wikibase-datamodel": {
             "type": "vcs",
             "url": "https://github.com/makeitfly/wikibase-datamodel.git"
@@ -42,19 +38,15 @@
         "data-model-services": {
             "type": "vcs",
             "url": "https://github.com/makeitfly/WikibaseDataModelServices.git"
-        },
-        "mediawiki-datamodel": {
-            "type": "vcs",
-            "url": "https://github.com/makeitfly/mediawiki-datamodel.git"
         }
     },
     "require": {
         "php": ">=7.4",
         "addwiki/mediawiki-api-base": "dev-main",
-        "addwiki/mediawiki-datamodel": "dev-main",
+        "addwiki/mediawiki-datamodel": "^3.1",
         "addwiki/wikibase-datamodel": "dev-main",
         "serialization/serialization": "~3.2||~4.0",
-        "wikibase/data-model": "dev-master",
+        "wikibase/data-model": "^9.6.1",
         "wikibase/data-model-serialization": "dev-master",
         "wikibase/data-model-services": "dev-master"
     },
