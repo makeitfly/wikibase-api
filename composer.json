@@ -24,7 +24,7 @@
     },
     "require": {
         "php": ">=8.1",
-        "addwiki/mediawiki-api-base": "^3.1-dev",
+        "addwiki/mediawiki-api-base": "^3.1",
         "addwiki/mediawiki-datamodel": "^3.1",
         "addwiki/wikibase-datamodel": "^3.1-dev",
         "serialization/serialization": "~3.2||~4.0",
